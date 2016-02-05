@@ -6,19 +6,15 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/About', function(req, res, next) {
   res.render('index', { title: 'About Me' });
 });
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/Projects', function(req, res, next) {
   res.render('index', { title: 'Projects' });
 });
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Services' });
-});
-/* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/Contact', function(req, res, next) {
   res.render('index', { title: 'Contact Me' });
 });
 
