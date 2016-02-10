@@ -1,4 +1,11 @@
 /*
+    Date: 2016/02/10
+    Author: D'Arcey Taylor
+    File: DTASSIGNMENT1
+    Website: http://dt-assignment1.azurewebsites.net/#home
+    Reason: This allows for special font characters
+*/
+/*
 	Prologue by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
