@@ -5,15 +5,16 @@
     <div id="main">
 
         <!-- Intro -->
-        <section id="top" class="one dark cover">
+        <section id="home" class="one dark cover">
             <div class="container">
 
                 <header>
                     <h2 class="alt">Hi! I'm <strong>D'Arcey Taylor</strong>,<br />
                                     thanks for stopping by my site.</h2>
                     <p>Please feel free to check out the projects that I have worked on in the past.
-                        <br /> If you would like to contact me about my work or you would like to work with me on a project<br />
-                                go ahead and shoot me an email down below.</p>
+                        <br /> If you would like to contact me about my work or you would like to work with me on a project
+                        <br
+                        /> go ahead and shoot me an email down below.</p>
                 </header>
 
                 <footer>
@@ -59,9 +60,9 @@
                             </header>
                         </article>
                         <article class="item">
-                            <a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+                            <a href="http://gc200302660.computerstudi.es/Virtual%20Comm/home.php" class="image fit"><img src="images/site2.jpg" alt="" /></a>
                             <header>
-                                <h3>Natoque Vitae</h3>
+                                <h3>Sample Website in PHP<br />About Semester 2 of my Program</h3>
                             </header>
                         </article>
                     </div>
@@ -73,9 +74,9 @@
                             </header>
                         </article>
                         <article class="item">
-                            <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+                            <a href="http://gc200302660.computerstudi.es/Web%20and%20Internet%20Fundamentals/Project1/index.html" class="image fit"><img src="images/site3.jpg" alt="" /></a>
                             <header>
-                                <h3>Orci Convallis</h3>
+                                <h3>Sample Website using HTML & CSS<br />Includes basic PayPal page</h3>
                             </header>
                         </article>
                     </div>
@@ -101,39 +102,8 @@
 
             </div>
         </section>
-        <!-- Contact -->
-        <section id="contact" class="four">
-            <div class="container">
 
-                <header>
-                    <h2>Contact</h2>
-                </header>
-
-                <p>Elementum sem parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper dolor. Libero
-                    rutrum ut lacinia donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc orci ridiculus
-                    faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-                <form method="post" action="#">
-                    <div class="row">
-                        <div class="6u 12u$(mobile)">
-                            <input type="text" name="name" placeholder="Name" />
-                        </div>
-                        <div class="6u$ 12u$(mobile)">
-                            <input type="email" name="email" placeholder="Email" />
-                        </div>
-                        <div class="12u$">
-                            <textarea name="message" placeholder="Message"></textarea>
-                        </div>
-                        <div class="12u$">
-                            <input type="submit" value="Send Message" />
-                        </div>
-                    </div>
-                </form>
-
-            </div>
-        </section>
-
-
+        <% include contact.ejs %>
     </div>
 
     <% include partials/footer.ejs %>
