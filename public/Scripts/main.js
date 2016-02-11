@@ -3,7 +3,7 @@
     Author: D'Arcey Taylor
     File: DTASSIGNMENT1
     Website: http://dt-assignment1.azurewebsites.net/#home
-    Reason: This allows for special font characters
+    Reason: This is the prime javascript
 */
 /*
 	Prologue by HTML5 UP
